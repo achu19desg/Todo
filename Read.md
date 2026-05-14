@@ -19,7 +19,7 @@ A simple and responsive Todo App built using HTML, Tailwind CSS, and JavaScript.
 ## Project Structure
 
 ```bash
-├── class.html
+├── index.html
 ├── class.js
 └── README.md
 ```
