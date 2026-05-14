@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Theme Changer</title>
+</head>
+
+<body>
+  <div class="bg-stone-900 text-gray-300 min-h-screen ">
+    <h1 class="text-4xl text-center py-5 font-bold text-cyan-500">Todo App</h1>
+   
+    <div class="w-full flex flex-col items-center mt-10">
+    <form >
+        <input id="input" type="text" class="bg-stone-700 px-4 py-3 w-96 rounded-md border-none outline-none tracking-wider"
+        placeholder="Enter the task"/>
+
+         <button id="btn" class="bg-sky-800 hover:bg-sky-600 px-6 py-3 rounded-md text-white">Add</button>
+    </form>
+
+    <section class="w-[450px] mt-12">
+        <h1 class="text-3xl font-bold text-purple-500">Task list</h1>
+
+        <ul id="ul" class="flex flex-col gap-2">
+         </ul>
+    </section>
+    
+    </div>
+ 
+  </div>
+
+    <script src="./class.js"></script>
+
+</body>
+</html>
